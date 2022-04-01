@@ -11,7 +11,7 @@ The GRACKLE  library is a compact set of useful classes and utilities that make 
 ## FEATURES
 
 Structure of the library:
-### THE MAIN CONTAINER - GRACKLE.ACCDB
+### [1] THE MAIN CONTAINER - GRACKLE.ACCDB
 The main container or repository is GRACKLE.accdb code (or in compiled form GRACKLE.aacde)  consists of kernel modules that form the skeleton of the library and auxiliary classes. the framework consists of the following functional modules:
   *	#_ACCESS: A library that lets you manage cons and the Access interface.  because access contains non-real components and windows as forms it requires special techniques to access their pointers.
   *	#_CHARTS: an add-on to Google Charts to overcome relatively poor graphics in Access itself. 
@@ -39,7 +39,7 @@ The main container or repository is GRACKLE.accdb code (or in compiled form GRAC
  
 All modules are implemented in the singleton paradigm, so that by connecting the library to your database, you can access any public functions in the modules directly or through a qualified name, for example, [#_DOCUMENTER].divider
 
-### FORMS
+### [2] FORMS
    The GFORMS.accdb  forms library. This form library, when accessed by the GFORM plugin  , allows you to quickly import the form and run it directly in the client database.
 
 
