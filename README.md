@@ -8,10 +8,10 @@ The GRACKLE  library is a compact set of useful classes and utilities that make 
 -	Compile code as a dynamic link library (for example, using VBACompiler https://vbacompiler.com/ )
 -	Adaptation of modules and functions to work with MS Excel in the form of Excel add-in.
 
-## FEATURES
+## 1 FEATURES
 
 Structure of the library:
-### [1] THE MAIN CONTAINER - GRACKLE.ACCDB
+### 1.1 THE MAIN CONTAINER - GRACKLE.ACCDB
 The main container or repository is GRACKLE.accdb code (or in compiled form GRACKLE.aacde)  consists of kernel modules that form the skeleton of the library and auxiliary classes. the framework consists of the following functional modules:
   *	#_ACCESS: A library that lets you manage cons and the Access interface.  because access contains non-real components and windows as forms it requires special techniques to access their pointers.
   *	#_CHARTS: an add-on to Google Charts to overcome relatively poor graphics in Access itself. 
@@ -39,11 +39,11 @@ The main container or repository is GRACKLE.accdb code (or in compiled form GRAC
  
 All modules are implemented in the singleton paradigm, so that by connecting the library to your database, you can access any public functions in the modules directly or through a qualified name, for example, [#_DOCUMENTER].divider
 
-### [2] FORMS
+### 1.2 FORMS
    The GFORMS.accdb  forms library. This form library, when accessed by the GFORM plugin  , allows you to quickly import the form and run it directly in the client database.
 
 
-## USE CASES
+## 2 USE CASES
 The Visual Basic  language started in 1991 and became widespread because of its rapid development capabilities, as it implemented the principle of connecting the programming language and the graphical interface developed by the famous programmer and technical writer Alan Cooper.  Visual Basic for Application is an offshoot of Visual Basic that is not currently supported by its manufacturer, Microsoft. VBA is built into Microsoft Office, is an interpreted language, and may also be replaced in the future with support from .Net (Visual Studio Tools for Applications).  And although the old VBA is more dead than alive, there are still a lot of applications on top of MS Office that use the capabilities of VBA.
 The use of VBA has the following obvious advantages: a built-in development environment in the most widespread office suite, a COM architecture that allows you to use all the components available on the Windows  system  , easy creation of interfaces and event-oriented systems, a slender and logical syntax model.
 The disadvantage of the system is the lack of support for multi-threaded applications, a somewhat outdated object model and the insufficiently broad support of the community, which is a loss compared to the popular Python.  However, there is some niche of desktop applications that make the use of VBA interesting for those who implement their own applications or automate everyday office work.
@@ -54,5 +54,5 @@ The most obvious application scenarios are:
   3.	Prepare and process data by demonstrating your own interface
   4.	Prototyping applications.
 
-## LIMITATIONS OF LIABILITIES
+## 3 LIMITATIONS OF LIABILITIES
    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND     ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES  (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;   LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
