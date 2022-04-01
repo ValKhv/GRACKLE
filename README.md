@@ -1,8 +1,6 @@
 # GRACKLE
-      --------------------------
-The little bird-like VBA library it is named after: humble, inconspicuous, and almost useless. However, it contains basic methods to extend the capabilities of Access and Excel.
-      --------------------------
-      
+*The little bird-like VBA library it is named after: humble, inconspicuous, and almost useless. However, it contains basic methods to extend the capabilities of Access and Excel.*
+ 
 The GRACKLE  library is a compact set of useful classes and utilities that make it easy to create complex VBA  applications. The library consists of a skeleton of related modules covering aspects of the GUI, Network, data management, extensions of the basic tools of the language.
    Using the library is possible in different ways:
 -	Code snipping: borrowing individual functions and modules within your project.
